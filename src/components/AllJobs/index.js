@@ -361,14 +361,6 @@ class AllJobs extends Component {
                 onChange={this.onGetSearchInput}
                 onKeyDown={this.onEnterSearchInput}
               />
-              <button
-                data-testid="searchButton"
-                type="button"
-                className="search-button"
-                onClick={this.onSubmitSearchInput}
-              >
-                <AiOutlineSearch className="search-icon" />
-              </button>
             </div>
             {this.onRenderJobsStatus()}
           </div>
